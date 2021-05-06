@@ -698,9 +698,9 @@ sent by clients during connection establishment.
 
 An endpoint that selects a zero-length connection ID will receive packets with a
 zero-length destination connection ID. The endpoint needs to use other
-information, such as the source and destination IP address and port number to
-identify which connection is referred to. This could mean that the endpoint is
-unable to match datagrams to connections successfully if these values change,
+information -- such as the source and destination IP address and port number --
+to identify which connection is referred to. This could mean that the endpoint
+is unable to match datagrams to connections successfully if these values change,
 making the connection effectively unable to survive NAT rebinding or migrate to
 a new path.
 
