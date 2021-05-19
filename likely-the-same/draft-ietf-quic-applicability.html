@@ -18,7 +18,7 @@ to QUIC, and implementors of these application protocols.
 <meta content="draft-ietf-quic-applicability" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.7.0
-    Python 3.8.8
+    Python 3.8.10
     appdirs 1.4.4
     ConfigArgParse 1.2.3
     google-i18n-address 2.4.0
@@ -851,7 +851,7 @@ address div.right {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Kuehlewind &amp; Trammell</td>
-<td class="center">Expires 7 November 2021</td>
+<td class="center">Expires 20 November 2021</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -864,12 +864,12 @@ address div.right {
 <dd class="internet-draft">draft-ietf-quic-applicability</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2021-05-06" class="published">6 May 2021</time>
+<time datetime="2021-05-19" class="published">19 May 2021</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2021-11-07">7 November 2021</time></dd>
+<dd class="expires"><time datetime="2021-11-20">20 November 2021</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -910,7 +910,7 @@ to QUIC, and implementors of these application protocols.<a href="#section-abstr
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 7 November 2021.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 20 November 2021.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -938,112 +938,112 @@ to QUIC, and implementors of these application protocols.<a href="#section-abstr
         <a href="#" onclick="scroll(0,0)" class="toplink">▲</a><h2 id="name-table-of-contents">
 <a href="#name-table-of-contents" class="section-name selfRef">Table of Contents</a>
         </h2>
-<nav class="toc"><ul class="ulEmpty compact toc">
-<li class="ulEmpty compact toc" id="section-toc.1-1.1">
+<nav class="toc"><ul class="toc ulEmpty compact">
+<li class="toc ulEmpty compact" id="section-toc.1-1.1">
             <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.2">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.2">
             <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-the-necessity-of-fallback" class="xref">The Necessity of Fallback</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.3">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.3">
             <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-zero-rtt" class="xref">Zero RTT</a></p>
-<ul class="compact ulEmpty toc">
-<li class="compact ulEmpty toc" id="section-toc.1-1.3.2.1">
+<ul class="toc ulEmpty compact">
+<li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1">
                 <p id="section-toc.1-1.3.2.1.1" class="keepWithNext"><a href="#section-3.1" class="xref">3.1</a>.  <a href="#name-replay-attacks" class="xref">Replay Attacks</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.3.2.2">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.2">
                 <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="xref">3.2</a>.  <a href="#name-session-resumption-versus-k" class="xref">Session resumption versus Keep-alive</a></p>
 </li>
             </ul>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.4">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.4">
             <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-use-of-streams" class="xref">Use of Streams</a></p>
-<ul class="compact ulEmpty toc">
-<li class="compact ulEmpty toc" id="section-toc.1-1.4.2.1">
+<ul class="toc ulEmpty compact">
+<li class="toc ulEmpty compact" id="section-toc.1-1.4.2.1">
                 <p id="section-toc.1-1.4.2.1.1"><a href="#section-4.1" class="xref">4.1</a>.  <a href="#name-stream-versus-flow-multiple" class="xref">Stream versus Flow Multiplexing</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.4.2.2">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.4.2.2">
                 <p id="section-toc.1-1.4.2.2.1"><a href="#section-4.2" class="xref">4.2</a>.  <a href="#name-prioritization" class="xref">Prioritization</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.4.2.3">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.4.2.3">
                 <p id="section-toc.1-1.4.2.3.1"><a href="#section-4.3" class="xref">4.3</a>.  <a href="#name-ordered-and-reliable-delive" class="xref">Ordered and Reliable Delivery</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.4.2.4">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.4.2.4">
                 <p id="section-toc.1-1.4.2.4.1"><a href="#section-4.4" class="xref">4.4</a>.  <a href="#name-flow-control-deadlocks" class="xref">Flow Control Deadlocks</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.4.2.5">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.4.2.5">
                 <p id="section-toc.1-1.4.2.5.1"><a href="#section-4.5" class="xref">4.5</a>.  <a href="#name-stream-limit-commitments" class="xref">Stream Limit Commitments</a></p>
 </li>
             </ul>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.5">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.5">
             <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-packetization-and-latency" class="xref">Packetization and Latency</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.6">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.6">
             <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-error-handling" class="xref">Error Handling</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.7">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.7">
             <p id="section-toc.1-1.7.1"><a href="#section-7" class="xref">7</a>.  <a href="#name-ack-only-packets-on-constra" class="xref">ACK-only packets on constrained links</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.8">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.8">
             <p id="section-toc.1-1.8.1"><a href="#section-8" class="xref">8</a>.  <a href="#name-port-selection-and-applicat" class="xref">Port Selection and Application Endpoint Discovery</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.9">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.9">
             <p id="section-toc.1-1.9.1"><a href="#section-9" class="xref">9</a>.  <a href="#name-connection-migration" class="xref">Connection Migration</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.10">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.10">
             <p id="section-toc.1-1.10.1"><a href="#section-10" class="xref">10</a>. <a href="#name-connection-termination" class="xref">Connection Termination</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.11">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.11">
             <p id="section-toc.1-1.11.1"><a href="#section-11" class="xref">11</a>. <a href="#name-information-exposure-and-th" class="xref">Information Exposure and the Connection ID</a></p>
-<ul class="compact ulEmpty toc">
-<li class="compact ulEmpty toc" id="section-toc.1-1.11.2.1">
+<ul class="toc ulEmpty compact">
+<li class="toc ulEmpty compact" id="section-toc.1-1.11.2.1">
                 <p id="section-toc.1-1.11.2.1.1"><a href="#section-11.1" class="xref">11.1</a>.  <a href="#name-server-generated-connection" class="xref">Server-Generated Connection ID</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.11.2.2">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.11.2.2">
                 <p id="section-toc.1-1.11.2.2.1"><a href="#section-11.2" class="xref">11.2</a>.  <a href="#name-mitigating-timing-linkabili" class="xref">Mitigating Timing Linkability with Connection ID Migration</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.11.2.3">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.11.2.3">
                 <p id="section-toc.1-1.11.2.3.1"><a href="#section-11.3" class="xref">11.3</a>.  <a href="#name-using-server-retry-for-redi" class="xref">Using Server Retry for Redirection</a></p>
 </li>
             </ul>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.12">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.12">
             <p id="section-toc.1-1.12.1"><a href="#section-12" class="xref">12</a>. <a href="#name-quality-of-service-qos-and-" class="xref">Quality of Service (QoS) and DSCP</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.13">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.13">
             <p id="section-toc.1-1.13.1"><a href="#section-13" class="xref">13</a>. <a href="#name-use-of-versions-and-cryptog" class="xref">Use of Versions and Cryptographic Handshake</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.14">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.14">
             <p id="section-toc.1-1.14.1"><a href="#section-14" class="xref">14</a>. <a href="#name-enabling-new-versions" class="xref">Enabling New Versions</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.15">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.15">
             <p id="section-toc.1-1.15.1"><a href="#section-15" class="xref">15</a>. <a href="#name-unreliable-datagram-service" class="xref">Unreliable Datagram Service over QUIC</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.16">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.16">
             <p id="section-toc.1-1.16.1"><a href="#section-16" class="xref">16</a>. <a href="#name-iana-considerations" class="xref">IANA Considerations</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.17">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.17">
             <p id="section-toc.1-1.17.1"><a href="#section-17" class="xref">17</a>. <a href="#name-security-considerations" class="xref">Security Considerations</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.18">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.18">
             <p id="section-toc.1-1.18.1"><a href="#section-18" class="xref">18</a>. <a href="#name-contributors" class="xref">Contributors</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.19">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.19">
             <p id="section-toc.1-1.19.1"><a href="#section-19" class="xref">19</a>. <a href="#name-acknowledgments" class="xref">Acknowledgments</a></p>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.20">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.20">
             <p id="section-toc.1-1.20.1"><a href="#section-20" class="xref">20</a>. <a href="#name-references" class="xref">References</a></p>
-<ul class="compact ulEmpty toc">
-<li class="compact ulEmpty toc" id="section-toc.1-1.20.2.1">
+<ul class="toc ulEmpty compact">
+<li class="toc ulEmpty compact" id="section-toc.1-1.20.2.1">
                 <p id="section-toc.1-1.20.2.1.1"><a href="#section-20.1" class="xref">20.1</a>.  <a href="#name-normative-references" class="xref">Normative References</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.20.2.2">
+              <li class="toc ulEmpty compact" id="section-toc.1-1.20.2.2">
                 <p id="section-toc.1-1.20.2.2.1"><a href="#section-20.2" class="xref">20.2</a>.  <a href="#name-informative-references" class="xref">Informative References</a></p>
 </li>
             </ul>
 </li>
-          <li class="ulEmpty compact toc" id="section-toc.1-1.21">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.21">
             <p id="section-toc.1-1.21.1"><a href="#section-appendix.a" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a></p>
 </li>
         </ul>
@@ -1220,14 +1220,14 @@ interruptions, such as VM migration or coverage loss during mobilty.
 See <span>[<a href="#RFC8085" class="xref">RFC8085</a>]</span>, especially Section 3.5.<a href="#section-3.2-8" class="pilcrow">¶</a></p>
 <p id="section-3.2-9">Alternatively, the client (but not the server) can use session resumption
 instead of sending keepalive traffic. In this case, a client that wants to send
-data to a server over a connection idle longer than the server's idle timeout
-(available from the idle_timeout transport parameter) can simply reconnect. When
-possible, this reconnection can use 0-RTT session resumption, reducing the
-latency involved with restarting the connection. Of course, this approach is
-only valid in cases in which 0-RTT data is safe, when the client is the
-restarting peer, and when the data to be sent is idempotent. It is also not
-applicable when the application binds external state to the connection, as this
-state cannot reliably be transferred to a resumed connection.<a href="#section-3.2-9" class="pilcrow">¶</a></p>
+data to a server over a connection that has been idle longer than the server's
+idle timeout (available from the idle_timeout transport parameter) can simply
+reconnect. When possible, this reconnection can use 0-RTT session resumption,
+reducing the latency involved with restarting the connection. Of course, this
+approach is only valid in cases in which it is safe to use 0-RTT and when the
+client is the restarting peer. It is also not applicable when the application
+binds external state to the connection, as this state cannot reliably be
+transferred to a resumed connection.<a href="#section-3.2-9" class="pilcrow">¶</a></p>
 <p id="section-3.2-10">The tradeoffs between resumption and keep-alives need to be evaluated on a
 per-application basis. In general, applications should use keep-alives only in
 circumstances where continued communication is highly likely; <span>[<a href="#QUIC-HTTP" class="xref">QUIC-HTTP</a>]</span>, for
@@ -1242,10 +1242,9 @@ instance, recommends using keep-alives only when a request is outstanding.<a hre
 <a href="#section-4" class="section-number selfRef">4. </a><a href="#name-use-of-streams" class="section-name selfRef">Use of Streams</a>
       </h2>
 <p id="section-4-1">QUIC's stream multiplexing feature allows applications to run multiple streams
-over a single connection, without head-of-line blocking between streams,
-associated at a point in time with a single five-tuple. Stream data is carried
-within frames, where one QUIC packet on the wire can carry one or multiple
-stream frames.<a href="#section-4-1" class="pilcrow">¶</a></p>
+over a single connection, without head-of-line blocking between streams.  Stream
+data is carried within frames, where one QUIC packet on the wire can carry one
+or multiple stream frames.<a href="#section-4-1" class="pilcrow">¶</a></p>
 <p id="section-4-2">Streams can be unidirectional or bidirectional, and a stream may be initiated
 either by client or server. Only the initiator of a unidirectional stream can
 send data on it.<a href="#section-4-2" class="pilcrow">¶</a></p>
@@ -1288,18 +1287,18 @@ does not automatically lead to an increase of the maximum number of
 streams by the receiver. Therefore, an application can use the maximum
 number of allowed, currently open, and currently used streams when
 determining how to map data to streams.<a href="#section-4-8" class="pilcrow">¶</a></p>
-<p id="section-4-9">QUIC assigns a numerical identifier to each stream, called the Stream ID.  While
+<p id="section-4-9">QUIC assigns a numerical identifier to each stream, called the stream ID.  While
 the relationship between these identifiers and stream types is clearly defined
 in version 1 of QUIC, future versions might change this relationship for various
 reasons. QUIC implementations should expose the properties of each stream
 (which endpoint initiated the stream, whether the stream is unidirectional or
-bidirectional, the Stream ID used for the stream); applications should query for
-these properties rather than attempting to infer them from the Stream ID.<a href="#section-4-9" class="pilcrow">¶</a></p>
+bidirectional, the stream ID used for the stream); applications should query for
+these properties rather than attempting to infer them from the stream ID.<a href="#section-4-9" class="pilcrow">¶</a></p>
 <p id="section-4-10">The method of allocating stream identifiers to streams opened by the application
 might vary between transport implementations. Therefore, an application should
 not assume a particular stream ID will be assigned to a stream that has not yet
-been allocated.  For example, HTTP/3 uses Stream IDs to refer to streams that
-have already been opened, but makes no assumptions about future Stream IDs or
+been allocated.  For example, HTTP/3 uses stream IDs to refer to streams that
+have already been opened, but makes no assumptions about future stream IDs or
 the way in which they are assigned <span><a href="https://tools.ietf.org/html/draft-ietf-quic-http-34#section-6" class="relref">Section 6</a> of [<a href="#QUIC-HTTP" class="xref">QUIC-HTTP</a>]</span>).<a href="#section-4-10" class="pilcrow">¶</a></p>
 <div id="stream-versus-flow-multiplexing">
 <section id="section-4.1">
@@ -1451,7 +1450,7 @@ relying on stream limits to avoid abrupt closure, an application-layer graceful
 close mechanism can be used to communicate the intention to explicitly close the
 connection at some future point.<a href="#section-4.5-2" class="pilcrow">¶</a></p>
 <p id="section-4.5-3">HTTP/3 provides such a mechanism using the
-GOWAWAY frame. In HTTP/3, when the GOAWAY frame is received by a client, it
+GOAWAY frame. In HTTP/3, when the GOAWAY frame is received by a client, it
 stops opening new streams even if the cumulative stream limit would allow.
 Instead the client would create a new connection on which to open further
 streams.  Once all streams are closed on the old connection, it can be
@@ -1557,11 +1556,11 @@ single UDP port based on the ALPN token offered.  Applications using QUIC
 should register an ALPN token for use in the TLS handshake.<a href="#section-8-3" class="pilcrow">¶</a></p>
 <p id="section-8-4">Applications could define an alternate endpoint discovery mechanism to allow
 the usage of ports other than the default. For example, HTTP/3 (Sections <a href="https://tools.ietf.org/html/draft-ietf-quic-http-34#section-3.2" class="relref">3.2</a> and <a href="https://tools.ietf.org/html/draft-ietf-quic-http-34#section-3.3" class="relref">3.3</a> of <span>[<a href="#QUIC-HTTP" class="xref">QUIC-HTTP</a>]</span>) specifies the use of HTTP Alternative Services
-for an HTTP origin to advertise the availability of an equivalent HTTP/3
-endpoint on a certain UDP port by using the "h3" ALPN token.
-Note that HTTP/3's ALPN token ("h3") identifies not only the version of the
-application protocol, but also the version of QUIC itself; this approach
-allows unambiguous agreement between the endpoints on the protocol stack in use.<a href="#section-8-4" class="pilcrow">¶</a></p>
+<span>[<a href="#RFC7838" class="xref">RFC7838</a>]</span> for an HTTP origin to advertise the availability of an equivalent
+HTTP/3 endpoint on a certain UDP port by using the "h3" ALPN token.  Note that
+HTTP/3's ALPN token ("h3") identifies not only the version of the application
+protocol, but also the version of QUIC itself; this approach allows unambiguous
+agreement between the endpoints on the protocol stack in use.<a href="#section-8-4" class="pilcrow">¶</a></p>
 <p id="section-8-5">Given the prevalence of the assumption in network management
 practice that a port number maps unambiguously to an application, the
 use of ports that cannot easily be mapped to a registered service name
@@ -1577,26 +1576,25 @@ identification.<a href="#section-8-5" class="pilcrow">¶</a></p>
       </h2>
 <p id="section-9-1">QUIC supports connection migration by the client. If an IP address
 changes, a QUIC endpoint can still associate packets with an existing
-transport connection using the destination connection ID field
-(see also <a href="#connid" class="xref">Section 11</a>) in the QUIC header, unless a zero-length value is used.
+transport connection using the Destination Connection ID field
+(see also <a href="#connid" class="xref">Section 11</a>) in the QUIC header.
 This supports cases where address information changes, such as NAT rebinding,
 intentional change of the local interface, or based on an indication in the
 handshake of the server for a preferred address to be used.<a href="#section-9-1" class="pilcrow">¶</a></p>
 <p id="section-9-2">Use of a non-zero-length connection ID for the server is strongly recommended if
 any clients are behind a NAT or could be. A non-zero-length connection ID is
 also strongly recommended when migration is supported.<a href="#section-9-2" class="pilcrow">¶</a></p>
-<p id="section-9-3">Currently QUIC only supports failover cases. Only one "path" can be used at a
-time; and only when the new path is validated, all traffic can be switched over
-to that new path. Path validation means that the remote endpoint is required to
-validate the new path before use in order to avoid address spoofing attacks.
-Path validation takes at least one RTT and congestion control will also be reset
-after path migration. Therefore migration usually has a performance impact.<a href="#section-9-3" class="pilcrow">¶</a></p>
-<p id="section-9-4">QUIC probing packets, which can be sent on multiple paths at once, are used
-to perform address validation as well as measure path characteristics as input
-for the switching decision. Probing packets cannot carry application data but
-may contain padding frames. Endpoints can use information about their receipt
-as input to congestion control for that path. Applications could use
-information learned from probing to inform a decisions to switch paths.<a href="#section-9-4" class="pilcrow">¶</a></p>
+<p id="section-9-3">Currently QUIC only supports the use of a single network path at a time, which
+enables failover use cases.  Path validation is required so that endpoints
+validate paths before use to avoid address spoofing attacks.  Path validation
+takes at least one RTT and congestion control will also be reset after path
+migration. Therefore migration usually has a performance impact.<a href="#section-9-3" class="pilcrow">¶</a></p>
+<p id="section-9-4">QUIC probing packets, which can be sent on multiple paths at once, are used to
+perform address validation as well as measure path characteristics.  Probing
+packets cannot carry application data but likely contain padding frames.
+Endpoints can use information about their receipt as input to congestion control
+for that path. Applications could use information learned from probing to inform
+a decisions to switch paths.<a href="#section-9-4" class="pilcrow">¶</a></p>
 <p id="section-9-5">Only the client can actively migrate in version 1 of QUIC. However, servers can
 indicate during the handshake that they prefer to transfer the connection to a
 different address after the handshake. For instance, this could be used to move
@@ -1710,22 +1708,22 @@ migrations at a given time, or through other means.<a href="#section-11.2-4" cla
         <h3 id="name-using-server-retry-for-redi">
 <a href="#section-11.3" class="section-number selfRef">11.3. </a><a href="#name-using-server-retry-for-redi" class="section-name selfRef">Using Server Retry for Redirection</a>
         </h3>
-<p id="section-11.3-1">QUIC provides a Server Retry packet that can be sent by a server in response to
-the Client Initial packet. The server may choose a new connection ID in that
-packet and the client will retry by sending another Client Initial packet with
+<p id="section-11.3-1">QUIC provides a Retry packet that can be sent by a server in response to
+the client Initial packet. The server may choose a new connection ID in that
+packet and the client will retry by sending another client Initial packet with
 the server-selected connection ID. This mechanism can be used to redirect a
-connection to a different server, e.g. due to performance reasons or when
+connection to a different server, e.g., due to performance reasons or when
 servers in a server pool are upgraded gradually, and therefore may support
-different versions of QUIC. In this case, it is assumed that all servers
-belonging to a certain pool are served in cooperation with load balancers that
-forward the traffic based on the connection ID. A server can choose the
-connection ID in the Server Retry packet such that the load balancer will
-redirect the next Client Initial packet to a different server in that pool.
-Alternatively the load balancer can directly offer a Retry service as further
-described in <span>[<a href="#QUIC-LB" class="xref">QUIC-LB</a>]</span>.<a href="#section-11.3-1" class="pilcrow">¶</a></p>
-<p id="section-11.3-2"><span><a href="https://rfc-editor.org/rfc/rfc5077#section-4" class="relref">Section 4</a> of [<a href="#RFC5077" class="xref">RFC5077</a>]</span> describes an example approach for constructing
+different versions of QUIC.<a href="#section-11.3-1" class="pilcrow">¶</a></p>
+<p id="section-11.3-2">In this case, it is assumed that all servers belonging to a certain pool are
+served in cooperation with load balancers that forward the traffic based on the
+connection ID. A server can choose the connection ID in the Retry packet such
+that the load balancer will redirect the next Initial packet to a different
+server in that pool.  Alternatively the load balancer can directly offer a Retry
+service as further described in <span>[<a href="#QUIC-LB" class="xref">QUIC-LB</a>]</span>.<a href="#section-11.3-2" class="pilcrow">¶</a></p>
+<p id="section-11.3-3"><span><a href="https://rfc-editor.org/rfc/rfc5077#section-4" class="relref">Section 4</a> of [<a href="#RFC5077" class="xref">RFC5077</a>]</span> describes an example approach for constructing
 TLS resumption tickets that can be also applied for validation tokens,
-however, the use of more modern cryptographic algorithms is highly recommended.<a href="#section-11.3-2" class="pilcrow">¶</a></p>
+however, the use of more modern cryptographic algorithms is highly recommended.<a href="#section-11.3-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1984,6 +1982,10 @@ Innovation under contract no. 15.0268. This support does not imply endorsement.<
 <dt id="RFC7413">[RFC7413]</dt>
         <dd>
 <span class="refAuthor">Cheng, Y.</span>, <span class="refAuthor">Chu, J.</span>, <span class="refAuthor">Radhakrishnan, S.</span>, and <span class="refAuthor">A. Jain</span>, <span class="refTitle">"TCP Fast Open"</span>, <span class="seriesInfo">RFC 7413</span>, <span class="seriesInfo">DOI 10.17487/RFC7413</span>, <time datetime="2014-12" class="refDate">December 2014</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/rfc7413">https://datatracker.ietf.org/doc/html/rfc7413</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC7838">[RFC7838]</dt>
+        <dd>
+<span class="refAuthor">Nottingham, M.</span>, <span class="refAuthor">McManus, P.</span>, and <span class="refAuthor">J. Reschke</span>, <span class="refTitle">"HTTP Alternative Services"</span>, <span class="seriesInfo">RFC 7838</span>, <span class="seriesInfo">DOI 10.17487/RFC7838</span>, <time datetime="2016-04" class="refDate">April 2016</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/rfc7838">https://datatracker.ietf.org/doc/html/rfc7838</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="RFC8085">[RFC8085]</dt>
         <dd>
