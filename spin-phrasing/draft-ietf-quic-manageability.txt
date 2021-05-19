@@ -5,8 +5,8 @@
 Network Working Group                                      M. Kuehlewind
 Internet-Draft                                                  Ericsson
 Intended status: Informational                               B. Trammell
-Expires: 7 November 2021                         Google Switzerland GmbH
-                                                              6 May 2021
+Expires: 20 November 2021                        Google Switzerland GmbH
+                                                             19 May 2021
 
 
               Manageability of the QUIC Transport Protocol
@@ -35,7 +35,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 November 2021.
+   This Internet-Draft will expire on 20 November 2021.
 
 Copyright Notice
 
@@ -836,7 +836,7 @@ Table of Contents
 
    When in use, the latency spin bit in each direction changes value
    once per round-trip time (RTT) any time that both endpoints are
-   sending packet continuously.  An on-path observer can observe the
+   sending packets continuously.  An on-path observer can observe the
    time difference between edges (changes from 1 to 0 or 0 to 1) in the
    spin bit signal in a single direction to measure one sample of end-
    to-end RTT.  This mechanism follows the principles of protocol
